@@ -8,4 +8,4 @@ version '1.0.0'
 
 resource_type 'gametype' { name = 'My awesome game type!' }
 
-client_script 'playground.js'
+client_script 'src/playground.js'
