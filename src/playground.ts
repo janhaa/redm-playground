@@ -9,23 +9,6 @@ on('onClientGameTypeStart', () => {
       'Welcome to the party!~'
     ]
   })
-  // exports.spawnmanager.setAutoSpawnCallback(() => {
-  //   exports.spawnmanager.spawnPlayer({
-  //     x: spawnPos[0],
-  //     y: spawnPos[1],
-  //     z: spawnPos[2],
-  //     model: 'a_m_m_skater_01'
-  //   }, () => {
-  //     emit('chat:addMessage', {
-  //       args: [
-  //         'Welcome to the party!~'
-  //       ]
-  //     })
-  //   });
-  // });
-
-  // exports.spawnmanager.setAutoSpawn(true)
-  // exports.spawnmanager.forceRespawn()
 });
 
 RegisterCommand("pg", () => {
@@ -39,6 +22,7 @@ RegisterCommand("pg", () => {
       x: spawnPos[0],
       y: spawnPos[1],
       z: spawnPos[2],
+      model: 'A_C_Alligator_01'
     }, () => {
       emit('chat:addMessage', {
         args: [
