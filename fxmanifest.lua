@@ -1,5 +1,5 @@
 fx_version 'cerulean'
-game 'gta5'
+game 'rdr3'
 
 author 'An awesome dude'
 description 'An awesome, but short, description'
